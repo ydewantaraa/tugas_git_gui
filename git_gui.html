@@ -1,0 +1,64 @@
+Git adalah sistem kontrol versi yang digunakan untuk mengelola perubahan dalam kode sumber perangkat lunak selama pengembangan perangkat lunak. Berikut ini adalah rangkuman materi Git:
+
+1. Inisialisasi Repositori:
+   - `git init`: Inisialisasi repositori Git baru.
+   - `git clone [url]`: Clone repositori Git yang sudah ada.
+
+2. Area Staging:
+   - Working Directory: Tempat di mana Anda melakukan perubahan pada file.
+   - Staging Area (Index): Tempat di mana perubahan dipersiapkan sebelum dikonfirmasi.
+   - Repository: Tempat penyimpanan permanen untuk versi yang dikonfirmasi.
+
+3. Perubahan Dasar:
+   - `git add [file]`: Menambahkan file ke staging area.
+   - `git add .`: Menambahkan semua perubahan ke staging area.
+   - `git reset [file]`: Menghapus file dari staging area.
+
+4. Menyimpan Perubahan:
+   - `git commit -m "pesan commit"`: Menyimpan perubahan yang sudah di-staging dengan pesan commit.
+
+5. Melihat Status dan Riwayat:
+   - `git status`: Menunjukkan status perubahan.
+   - `git log`: Menampilkan riwayat commit.
+
+6. Branching dan Merging:
+   - `git branch [nama-branch]`: Membuat branch baru.
+   - `git checkout [nama-branch]`: Pindah ke branch lain.
+   - `git merge [nama-branch]`: Menggabungkan perubahan dari branch lain ke branch saat ini.
+
+7. Konflik Merge:
+   - Mengatasi konflik saat merge dengan mengedit file secara manual dan melakukan commit kembali.
+
+8. Remote Repositories:
+   - `git remote add [nama-remote] [url]`: Menambahkan remote repository.
+   - `git push [remote] [branch]`: Mengirim perubahan ke remote repository.
+   - `git pull [remote] [branch]`: Mengambil perubahan dari remote repository.
+
+9. Branching Remote:
+   - `git fetch`: Mengambil perubahan dari remote repository tanpa menggabungkannya.
+   - `git merge origin/[nama-branch]`: Menggabungkan branch remote ke branch lokal.
+
+10. Undo Changes:
+   - `git reset [commit]`: Mengembalikan HEAD ke commit tertentu.
+   - `git revert [commit]`: Membuat commit baru yang membatalkan commit sebelumnya.
+   - `git clean -n`: Menampilkan file yang akan dihapus dengan `git clean -f`: Menghapus file yang tidak terlacak.
+
+11. Tagging:
+   - `git tag [nama-tag] [commit]`: Menandai commit dengan tag tertentu.
+
+12. Gitignore:
+   - File `.gitignore` untuk menentukan file dan folder yang diabaikan oleh Git.
+
+13. Git Config:
+   - `git config --global user.name "[nama]"` dan `git config --global user.email "[email]"`: Mengatur konfigurasi pengguna.
+
+14. Perintah Tambahan:
+   - `git diff`: Menampilkan perbedaan antara working directory dan staging area.
+   - `git show [commit]`: Menampilkan perubahan pada commit tertentu.
+
+15. Tips Penting:
+   - Rutinlah melakukan commit dengan pesan yang jelas.
+   - Gunakan branch untuk mengisolasi pengembangan fitur atau perbaikan bug.
+   - Rajinlah melakukan pull dan push ke remote repository.
+
+*Catatan: Git memiliki lebih banyak fitur dan opsi yang tidak tercakup dalam rangkuman ini, namun materi di atas mencakup dasar-dasar yang diperlukan untuk bekerja dengan Git.
