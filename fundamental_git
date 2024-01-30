@@ -1,9 +1,3 @@
-Git adalah sistem kontrol versi yang digunakan untuk melacak perubahan dalam kode sumber selama pengembangan perangkat lunak. Ini memungkinkan beberapa pengembang bekerja pada proyek yang sama, melacak perubahan, dan mengelola versi dari kode tersebut. Berikut adalah rangkuman materi tentang Git:
-
-Repository (Repo):
-
-Git bekerja dengan menyimpan data dalam format yang disebut repository.
-Repository adalah tempat penyimpanan proyek, yang dapat berada di server jarak jauh (remote) atau di mesin lokal.
 Git Commands:
 
 git init: Menginisialisasi repository baru.
